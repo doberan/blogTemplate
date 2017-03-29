@@ -33,7 +33,12 @@ $image_url = wp_get_attachment_image_src($image_id, true);
 						<div class="writer">
 								<p class="title">この記事を書いたライター</p>
 								<div class="writer-in">
-										<div class="portlate"><a href="<?php echo get_author_posts_url( get_the_author_id() ); ?>"><?php echo get_avatar( get_the_author_id() ); ?></a></div><!--portlate-->
+										<div class="portlate">
+											<a href="<?php echo get_author_posts_url( get_the_author_id() ); ?>">
+												<?php echo get_avatar( get_the_author_id() ); ?>
+											</a>
+										</div>
+										<!--portlate-->
 										<div class="writer-in-in">
 												<div class="author-name"><a href="<?php echo get_author_posts_url( get_the_author_id() ); ?>"><?php the_author(); ?></a></div>
 												<div class="text">
