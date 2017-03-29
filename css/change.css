@@ -1,0 +1,342 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*タブレット用*/
+@media screen and (max-width: 999px){
+  #header-in-in{
+    padding: 20px 2%;/*20px*/
+    width: 96%;/*1040px*/
+  }
+  #header-in-in h1{
+    width: 14.4%;/*150px*/
+  }
+  #header-in-in ul.sns-icon {
+    width: 16.3%;/*170px*/
+    float: right;
+  }
+  #header-in-in ul li{
+    margin-left: 5%;/*10px*/
+    width: 30%;/*50px*/
+    height: auto;
+  }
+  #header-in-in ul li img{
+    max-width: 100%;
+  }
+  header nav{
+    width: 100%;
+  }
+  header nav ul{
+    width: 100%;/*1048px*/
+    border-left: none;
+    border-right: none;
+  }
+  header nav ul li{
+    width: 33.33%;
+  }
+
+  header nav ul li:first-child a{
+    border-left: none;
+  }
+  header nav ul li:last-child a{
+    border-right: none;
+  }
+  #wrapper{
+    width: 96%;/*1040px*/
+    padding: 40px 2%;
+  }
+  #contents{
+    margin-right: 2%;/*20px*/
+    width: 69%;/*720px*/
+  }
+  .box{
+    padding: 5%;/*30px*/
+    background: #FFF;
+  }
+  #sidebar{
+    width: 29%;/*300px*/
+  }
+  .category{
+    padding: 0;
+  }
+  .tagCrowd{
+    width: 80%;
+  }
+  .tagCrowd li a{
+    font-size: 12px;
+  }
+  .search form{
+    width: 100%;/*300px*/
+  }
+  .search form input,.search form button{
+    margin: 0;
+    padding: 0;
+    border: none;
+    float: left;
+  }
+  .search form input {
+      width: 63.3%;
+      height: 30px;
+      padding: 10px 15% 10px 5%/*30px*/;
+  }.search form button{
+    width: 16.7%;/*50px*/
+  }
+  .search form input:focus,.search form button:focus{
+    outline: none;
+  }
+  .ranking{
+    padding: 0;
+  }
+  .ranking dl{
+    width: 80%;/*240px*/
+  }
+  .ranking dl .ranking-in{
+    margin-right: 6%;/*20px*/
+    width: 33%;/*100px*/
+  }
+  .ranking dl .popular-rank{
+      margin-right: 0;
+      padding: 3%;
+      width: 5%;
+      text-shadow: 1px 1px 0 rgba(0,0,0,0.8);
+      font-size: 14px;
+  }
+  .ranking dl .popular-image
+  {
+    margin: 0;
+    width: 100%;/*100px*/
+  }
+  .ranking dl > dd{
+    /*float: left;*/
+    width: 61%;/*120px*/
+  }
+  .ad{
+    width: 100%;
+    height: 200px;
+    background-color: #FFF;
+  }
+  .ad p{
+    line-height: 200px;
+    text-align: center;
+  }
+  /*共通*/
+  .category h2,
+  .ranking h2,
+  .newArrivals h2{
+    padding: 20px 0 20px 5%/*30px*/;
+  }
+  /*ホーム*/
+  .newArrivals{
+    padding: 0;
+  }
+  .newArrivals-in{
+    padding: 5%;/*30px;*/
+  }
+  .newArrivals-in dl{
+    width: 90%;/*660px*/
+  }
+  .newArrivals-in dl dt {
+      padding-right: 2%;
+  }
+  
+  /*記事一覧ページ*/
+  .articleList>li{
+    width: 90%;/*660px*/
+    padding: 5%;/*30px*/
+  }
+  .articleList .lBox{
+    width: 29%;/*162px*/
+  }
+
+  .articleList .rBox{
+    width: 66%;/*476px*/
+  }
+  .pager ul{
+    width: 22.22%;/*160px*/
+  }
+  .pager ul li a{
+    padding: 0 1%;/*5px*/
+  }
+
+  /*タグ共有*/
+  .tag{
+    width: 100%;
+  }
+  .tag li{
+    float: left;
+    margin-right: 2%;
+    padding: 6px 3%;
+  }
+  /*\ タグ共有 */
+
+  /*  記事詳細ページ  */
+  .articlebox{
+    width: 90%/*660px*/
+  }
+  .articlebox-in .articleImage{
+    width: 100%;/*658px*/
+  }
+  .articlebox .writer-in{
+    width: 100%;/*660px*/
+  }
+  .articlebox .writer-in-in{
+    width: 79%;/*520px*/
+  }
+  .articlebox .writer-in .portlate{
+    margin-right: 2%;/*20px*/
+    width: 18%;/*118px*/
+  }
+  .articlebox .sns{
+    width: 21%;/*140px*/
+  }
+  .articlebox .sns li{
+    margin-left: 5%;/*10px*/
+    width: 30%;/*40px*/
+  }
+  .articlebox .sns li img{
+    width: 100%;
+  }
+  .articlebox .sns li:first-child{
+    margin: 0;
+  }
+  .footer-in{
+    width: 90%;/*1040px*/
+  }
+  .footer-in p{
+    width: 85%;/*500px*/
+  }
+  .footer-in img{
+    width: 15%;/*150px*/
+  }
+}
+
+@media screen and (max-width: 767px){
+  #header-in-in h1{
+    width: 30%;/*150px*/
+  }
+  #header-in-in ul.sns-icon {
+    width: 30%;/*170px*/
+  }
+  #header-in-in div.btn{
+    float: right;
+    display: block;
+    margin: 10px 0 0 5%;
+    width: 45px;
+    height: 45px;
+    position: relative;
+  }
+  #header-in-in div.btn a{
+    display: block;
+    with: 45px;
+    height: 45px;
+    border: 2px solid #FFF;
+    border-radius: 15px;
+  }
+  #header-in-in div.btn span.btn-icon{
+    display:block;
+    width: 25px;
+    height: 2px;
+    background: #FFF;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right:0;
+    bottom:0;
+    left: 0;
+    transition: .2s;
+  }
+  #header-in-in div.btn span.btn-icon:before,
+  #header-in-in div.btn span.btn-icon:after{
+    content: "";
+    width: 25px;
+    height: 2px;
+    background: #FFF;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transition: .3s;
+  }
+  #header-in-in div.btn span.btn-icon:before{
+    margin-top: -6px;
+  }
+  #header-in-in div.btn span.btn-icon:after{
+    margin-top: 6px;
+  }
+  #header-in-in div.btn span.close{
+    background: rgba(255,255,255,0.0);
+  }
+  #header-in-in div.btn span.close:before, header div.btn span.close:after{
+    margin-top: 0;
+  }
+  #header-in-in div.btn span.close:before{
+    transform: rotate(-45deg);
+  }
+  #header-in-in div.btn span.close:after{
+    transform: rotate(-135deg);
+    margin-top: 1px;
+  }
+  header nav{
+    display: none;
+  }
+  header nav ul li{
+    width: 100%;
+  }
+  nav#second {
+      display: block;
+  }
+
+  #wrapper{
+    width: 96%;/*1040px*/
+    overflow: visible;
+    background: #EBEBEB;
+    position: relative;
+  }
+  #contents{
+    width: 100%;/*720px*/
+    float: none;
+  }
+  #sidebar{
+    width: 100%;/*300px*/
+    float: none;
+  }
+  .tagCrowd{
+    padding: 5%;/*30px*/
+    width: 90%;
+  }
+  .search form button img {
+      width: 30%;
+  }
+  .ranking .popular-rank {
+      width: 10px;
+      height: 12px;
+      padding: 7px;
+  }
+  /*共通*/
+  .category h2,
+  .ranking h2,
+  .newArrivals h2{
+    padding: 20px 0 20px 5%/*30px*/;
+  }
+  /*\ 共通*/
+
+
+  .newArrivals{
+    margin-bottom: 30px;
+  }
+  .pager ul{
+    margin: 0 auto 30px;
+  }
+  /*  記事詳細ページ  */
+  .articlebox{
+    margin-bottom: 30px;
+  }
+  .footer-in p{
+    width: 60%; /*500px*/
+    font-size: 10px;
+  }
+  .footer-in img{
+    width: 30%; /*150px*/
+  }
+}
